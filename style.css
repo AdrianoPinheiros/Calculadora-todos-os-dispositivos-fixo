@@ -1,0 +1,291 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+
+.num{
+    width: 140px;
+    height: 80px;
+}
+
+.text{
+    background-color: #ff6d00;
+    width: 385px;
+    height: 50px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.text1{
+    background-color: #ff6d00;
+    width: 105px;
+    height: 50px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: center; 
+}
+
+
+
+input{
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+
+
+.main{
+    display: block;
+    grid-template-columns: repeat(4,1fr);
+    max-width:600px;
+    margin: 0 auto;
+}
+
+
+.maincolor{
+    background-color: black;
+    
+}
+
+
+.blue{
+    background-color: #0cd0cd;
+}
+
+
+
+.pin{
+    background-color: #cf1f96;
+}
+
+
+.gree{
+    background-color: #aad800;
+}
+
+
+.pur{
+    background-color: #8c52ff;
+}
+
+
+.ora{
+background-color: #fcd770;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width:540px){
+    
+ 
+    .num{
+        width: 130px;       /* diminiu aqui e ficou na grid alinhada  */
+        height: 130px;      /* diminiu aqui e ficou na grid alinhada  */
+    }
+    
+    .text{
+        width: 365px;   /* diminiu aqui e ficou na grid alinhada  */
+        height: 85px;   /* diminiu aqui e ficou na grid alinhada  */
+       
+    }
+    
+    .text1{
+        width: 85px;  /* diminiu aqui e ficou na grid alinhada  */
+        height: 85px; /* diminiu aqui e ficou na grid alinhada  */
+    }
+     
+       
+    }
+     
+    
+    /* ----------------------------------------------------------------------------------------------------------------------------------- */
+    
+    @media (max-width:414px){
+    
+ 
+        .num{
+            width: 100px;       /* diminiu aqui e ficou na grid alinhada  */
+            height: 175px;      /* diminiu aqui e ficou na grid alinhada  */
+        }
+        
+        .text{
+            width: 270px;   /* diminiu aqui e ficou na grid alinhada  */
+            height: 105px;   /* diminiu aqui e ficou na grid alinhada  */
+           
+        }
+        
+        .text1{
+            width: 60px;  /* diminiu aqui e ficou na grid alinhada  */
+            height: 105px; /* diminiu aqui e ficou na grid alinhada  */
+        }
+         
+           
+        }
+    
+    
+    
+    /* ----------------------------------------------------------------------------------------------------------------------------------- */
+    
+    @media (max-width:412px){
+    
+ 
+        .num{
+            width: 100px;       /* diminiu aqui e ficou na grid alinhada  */
+            height: 175px;      /* diminiu aqui e ficou na grid alinhada  */
+        }
+        
+        .text{
+            width: 270px;   /* diminiu aqui e ficou na grid alinhada  */
+            height: 120px;   /* diminiu aqui e ficou na grid alinhada  */
+           
+        }
+        
+        .text1{
+            width: 60px;  /* diminiu aqui e ficou na grid alinhada  */
+            height: 120px; /* diminiu aqui e ficou na grid alinhada  */
+        }
+         
+           
+        }
+
+
+        /* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+        @media (max-width:393px){
+    
+ 
+            .num{
+                width: 95px;       /* diminiu aqui e ficou na grid alinhada  */
+                height: 160px;      /* diminiu aqui e ficou na grid alinhada  */
+            }
+            
+            .text{
+                width: 255px;   /* diminiu aqui e ficou na grid alinhada  */
+                height: 105px;   /* diminiu aqui e ficou na grid alinhada  */
+               
+            }
+            
+            .text1{
+                width: 55px;  /* diminiu aqui e ficou na grid alinhada  */
+                height: 105px; /* diminiu aqui e ficou na grid alinhada  */
+            }
+             
+               
+            }
+    
+     /* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+     @media (max-width:390px){
+    
+ 
+        .num{
+            width: 92px;       /* diminiu aqui e ficou na grid alinhada  */
+            height: 165px;      /* diminiu aqui e ficou na grid alinhada  */
+        }
+        
+        .text{
+            width: 250px;   /* diminiu aqui e ficou na grid alinhada  */
+            height: 100px;   /* diminiu aqui e ficou na grid alinhada  */
+           
+        }
+        
+        .text1{
+            width: 50px;  /* diminiu aqui e ficou na grid alinhada  */
+            height: 100px; /* diminiu aqui e ficou na grid alinhada  */
+        }
+         
+           
+        }
+
+ /* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+ @media (max-width:375px){
+    
+ 
+    .num{
+        width: 90px;       /* diminiu aqui e ficou na grid alinhada  */
+        height: 135px;      /* diminiu aqui e ficou na grid alinhada  */
+    }
+    
+    .text{
+        width: 240px;   /* diminiu aqui e ficou na grid alinhada  */
+        height: 90px;   /* diminiu aqui e ficou na grid alinhada  */
+       
+    }
+    
+    .text1{
+        width: 50px;  /* diminiu aqui e ficou na grid alinhada  */
+        height: 90px; /* diminiu aqui e ficou na grid alinhada  */
+    }
+     
+       
+    }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width:360px){
+    
+ 
+    .num{
+        width: 85px;       /* diminiu aqui e ficou na grid alinhada  */
+        height: 135px;      /* diminiu aqui e ficou na grid alinhada  */
+    }
+    
+    .text{
+        width: 225px;   /* diminiu aqui e ficou na grid alinhada  */
+        height: 90px;   /* diminiu aqui e ficou na grid alinhada  */
+       
+    }
+    
+    .text1{
+        width: 50px;  /* diminiu aqui e ficou na grid alinhada  */
+        height: 90px; /* diminiu aqui e ficou na grid alinhada  */
+    }
+     
+       
+    }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width:280px){
+    
+ 
+    .num{
+        width: 65px;       /* diminiu aqui e ficou na grid alinhada  */
+        height: 125px;      /* diminiu aqui e ficou na grid alinhada  */
+    }
+    
+    .text{
+        width: 165px;   /* diminiu aqui e ficou na grid alinhada  */
+        height: 80px;   /* diminiu aqui e ficou na grid alinhada  */
+       
+    }
+    
+    .text1{
+        width: 30px;  /* diminiu aqui e ficou na grid alinhada  */
+        height: 80px; /* diminiu aqui e ficou na grid alinhada  */
+    }
+     
+       
+    }
+
+
+
+    
+    
+    
